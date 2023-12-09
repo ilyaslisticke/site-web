@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar</title>
+    <link rel="stylesheet" href="site web.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css ">
+</head>
+<body>
+<header>
+    <nav class="navbar" >
+        <h1 class="logo" style="color: #89c8c8;">brevet</h1>
+        <div class="nav">
+            <ul>
+                <li style="color: #89c8c8;"><a href="site web.html">home</a></li>
+                <li style="color: #89c8c8;"><a href="sitewebpg3.html">info</a></li>
+                <li style="color: #89c8c8;"><a href="sitewebP4.html">brevet</a></li>
+                <li style="color: #89c8c8;"><a href="site webP2.html">contact</a></li>
+            </ul>
+        </div>
+        <img src="../image/menu icon vrai vrai wlh" 
+        alt="menu hamburger" class="hamburger">
+    </nav>
+</header> 
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>contact</h4>
+                <ul>
+                    <li><a href="#">github</a></li>
+                    <li><a href="#">twiter</a></li>
+                    <li><a href="#">facebook</a></li>
+                    <li><a href="#">linkedin</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>gmail</h4>
+                <ul>
+                    <li><a href="#">hamzakeurti</a></li>
+                    <li><a href="#">keurtiilyas</a></li>
+                    <li><a href="#">mekouare</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>brevet</h4>
+                <ul>
+                    <li><a href="#">coucou</a></li>
+                    <li><a href="#">publication</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>lien</h4>
+                <ul>
+                    <li><a href="#">hhhh</a></li>
+                    <li><a href="#">mise a jour</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>github</h4>
+                <ul>
+                    <li><a href="#">yeah</a></li>
+                    <li><a href="#">haz</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links" >
+                    <a href="https://www.facebook.com/hamza.keurti/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/KeurtiHamza "><i class="fab fa-twitter"></i></a>
+                    <a href="https://ch.linkedin.com/in/hamza-keurti"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/hamzakeurti"><i class="fab fa-github"></i></a>
+                    <a href="https://scholar.google.com/citations?user=zmS6_aYAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i></a>
+                </div>                              
+            </div>                              
+        </div>                                          
+    </div>                                                                  
+</footer> 
+
+<script >                        const menuHamburger = document.querySelector(".hamburger")
+    const navLinks = document.querySelector(".nav")
+
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('mobile-menu')
+    })
+    </script>
